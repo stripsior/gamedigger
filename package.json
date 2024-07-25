@@ -1,0 +1,20 @@
+{
+  "name": "dataminer",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "@types/steam-user": "^5.0.0",
+    "bullmq": "^5.10.3",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "jsdom": "^24.1.1",
+    "steam-user": "^5.0.10"
+  }
+}
